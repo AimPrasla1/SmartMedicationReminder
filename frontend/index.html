@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Medication Reminder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💊 Smart Medication Reminder</h1>
+
+    <form id="medicationForm">
+      <input type="text" id="name" placeholder="Medication Name" required />
+      <input type="time" id="time" required />
+      <button type="submit">Add Reminder</button>
+    </form>
+
+    <div id="reminderList">
+      <h2>Scheduled Reminders</h2>
+      <ul id="medications"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
